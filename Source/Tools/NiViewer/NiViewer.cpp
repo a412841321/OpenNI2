@@ -593,7 +593,8 @@ int changeDirectory(char* arg0)
 int main(int argc, char **argv)
 {
 	XnBool bChooseDevice = FALSE;
-	const char* uri = NULL;
+	const char* uri = "E:\\Project\\OpenNI\\code\\OpenNI2\\Bin\\x64-Debug\\1.oni";// NULL;
+	//const char* uri = NULL;
 
 	DeviceConfig config;
 	config.openDepth = SENSOR_TRY;

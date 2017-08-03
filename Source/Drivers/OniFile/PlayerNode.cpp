@@ -65,7 +65,7 @@ typedef struct XnRealWorldTranslationData
 //---------------------------------------------------------------------------
 
 //DATA_MAX_SIZE is set to support a resolution of 1600x1200 with 24 bits per pixel
-const XnUInt64 PlayerNode::DATA_MAX_SIZE = 1600 * 1200 * 3; 
+const XnUInt64 PlayerNode::DATA_MAX_SIZE = 1600 * 1296 * 3; 
 const XnUInt64 PlayerNode::RECORD_MAX_SIZE = 
 	NewDataRecordHeader::MAX_SIZE +
 	PlayerNode::DATA_MAX_SIZE; //Maximum data size

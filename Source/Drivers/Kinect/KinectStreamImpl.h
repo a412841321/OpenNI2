@@ -3,7 +3,7 @@
 
 #include "BaseKinectStream.h"
 #include <Shlobj.h>
-#include "NuiApi.h"
+#include "kinect.h"
 #include "XnList.h"
 
 struct INuiSensor;

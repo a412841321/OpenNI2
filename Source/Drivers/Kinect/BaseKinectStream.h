@@ -4,7 +4,7 @@
 #include "Driver\OniDriverAPI.h"
 #include "XnLib.h"
 #include <Shlobj.h>
-#include "NuiApi.h"
+#include "kinect.h"
 
 namespace kinect_device {
 
